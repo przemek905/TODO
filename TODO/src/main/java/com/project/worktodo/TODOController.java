@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TODOController {
 
-	@CrossOrigin(origins = "http://localhost:4200")
+	@CrossOrigin
 	@GetMapping("/hello")
 	public String hello(@RequestParam(required=false, defaultValue="World") String name) {
 		return "Hello "+name;

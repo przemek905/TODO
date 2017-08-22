@@ -10,34 +10,34 @@ public class TODO {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private long id;
+	private Long id;
 	
-	private String text;
+	private String title;
 
-	private boolean isCompleted = false;
+	private boolean complete = false;
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
-	public String getText() {
-		return text;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setText(String text) {
-		this.text = text;
+	public void setTitle(String text) {
+		this.title = text;
 	}
 
-	public boolean isCompleted() {
-		return isCompleted;
+	public boolean getComplete() {
+		return complete;
 	}
 
-	public void setCompleted(boolean isCompleted) {
-		this.isCompleted = isCompleted;
+	public void setComplete(boolean isCompleted) {
+		this.complete = isCompleted;
 	}
 
 }
