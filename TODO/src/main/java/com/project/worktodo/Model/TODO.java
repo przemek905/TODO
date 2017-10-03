@@ -1,4 +1,4 @@
-package com.project.worktodo;
+package com.project.worktodo.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
